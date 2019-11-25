@@ -1,13 +1,13 @@
 [
   [
     "DepRule",
-    "darker-than-darknet/include",
+    "ramitaw/darker-than-darknet/include",
     "-!->",
     "darker-than-darknet/src"
   ],
   [
     "DepRule",
-    "darker-than-darknet/src",
+    "ramitaw/darker-than-darknet/src",
     "-!->",
     "darker-than-darknet/include"
   ]
