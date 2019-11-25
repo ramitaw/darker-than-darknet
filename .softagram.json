@@ -1,14 +1,14 @@
 [
   [
     "DepRule",
-    "/include",
+    "darker-than-darknet/include",
     "-!->",
-    "/src"
+    "darker-than-darknet/src"
   ],
   [
     "DepRule",
-    "/src",
+    "darker-than-darknet/src",
     "-!->",
-    "/include"
+    "darker-than-darknet/include"
   ]
 ]
