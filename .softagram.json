@@ -1,63 +1,14 @@
 [
   [
     "DepRule",
-    "/Softagram/softagram-live/src/common",
+    "/include",
     "-!->",
-    "/Softagram/softagram-live/src/scheduler"
+    "/src"
   ],
   [
     "DepRule",
-    "/Softagram/softagram-live/src/common",
+    "/src",
     "-!->",
-    "/Softagram/softagram-live/src/db",
-    {
-      "description": "Common shouldn't use db",
-      "severity": [
-        [
-          "warning",
-          "",
-          "",
-          ""
-        ]
-      ]
-    }
-  ],
-  [
-    "DepRule",
-    "/Softagram/softagram-live/src/common",
-    "-!->",
-    "/Softagram/softagram-live/src/web",
-    {
-      "severity": [
-        [
-          "warning",
-          "",
-          "",
-          ""
-        ]
-      ]
-    }
-  ],
-  [
-    "DepRule",
-    "/Softagram/softagram-live/src/db",
-    "-!->",
-    "/Softagram/softagram-live/src/web"
-  ],
-  [
-
-    "DepRule",
-    "/Softagram/softagram-live/src/common",
-    "-!->",
-    "/Softagram/softagram-live/src/softagramcli"
-  ],
-  [
-    "DepRule",
-    "Softagram/External/nodejs_require/lodash",
-    "<--",
-    [],
-    {
-      "description": "No-one should use lodash"
-    }
+    "/include"
   ]
 ]
