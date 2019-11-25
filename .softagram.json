@@ -1,6 +1,11 @@
 [
   [
-     [
+    "DepRule",
+    "/Softagram/softagram-live/src/common",
+    "-!->",
+    "/Softagram/softagram-live/src/scheduler"
+  ],
+  [
     "DepRule",
     "/Softagram/softagram-live/src/common",
     "-!->",
