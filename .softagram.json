@@ -1,7 +1,7 @@
 [
   [
     "DepRule",
-    ".../include",
+    ".../src",
     "-!->",
     ".../include"	
   ]
