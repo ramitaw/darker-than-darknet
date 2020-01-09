@@ -3,7 +3,6 @@
     "DepRule",
     ".../src",
     "-!->",
-    ".../include"	
   ]
 ]
 
